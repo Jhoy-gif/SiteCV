@@ -1,0 +1,161 @@
+@charset "utf- 8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Marvel', sans-serif;
+    color:#fff; 
+    background-color:#2ba8d9;
+
+}
+
+main{
+    width:100%;
+    max-width:1600px;
+    margin:0 auto; 
+    overflow:hidden;
+
+
+}
+header{
+    background-color:#2ba8d9;
+    height:180px;
+    padding: 0.7em;
+
+
+}
+
+header > img{
+    float:left;
+    margin:15px;
+
+}
+nav{
+    width:250px;
+    overflow:hidden;
+    float: right;
+}
+
+nav > ul{
+    list-style-type:none;
+}
+
+nav > ul > {
+    padding - right:5px;
+
+}
+
+nav > ul > li > a:link{
+    display:block;
+    font-size:1.4em;
+    line-height:1.4em;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration:none;
+    color:#fff;
+    height:40px;
+    margin-bottom:10px;
+    background-color:#ff675a;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px 0 #707070;
+    text-transform:uppercase;
+
+
+}
+
+nav > ul > li > a:visited{
+    color:white; 
+
+
+}
+   
+nav > ul > li > a:hover{
+    color:#d85f61;
+}
+
+/* Estilo dos Titulos das seções do site*/
+
+h1{
+    font-size:3em;
+    margin:0 20px 25px 20px;
+
+}
+/* section sobre*/
+
+.sobre{
+    background-color: #ff675a;
+    overflow: hidden;
+    padding:1em;
+}
+
+.sobre > img{
+    float: left;
+    margin-right:20px;
+}
+/* Sessão trabalhos*/
+.trabalhos{
+    background-color:#fac17e;
+    overflow: hidden;
+    padding: 1em;
+    margin-bottom:3%; 
+}
+
+.trabalhos > article{
+    float: left; 
+    width:30.2%;
+    margin:0.9em;
+    padding: 0.5em;
+    height:590px; 
+    box-shadow:3px 2px 2px 0 #707070;
+
+}
+
+.trabalhos > article > img{
+    width:100%;
+
+
+}
+#sites{
+    background-color:#2ba8d9;
+}
+
+#sistemas{
+    background-color:#ff675a;
+}
+
+#projetos{
+    background-color:#63bf9e; 
+}
+/* Seção contato*/
+.contatos{
+    width:40%;
+    padding:30px;
+    float: left;
+    text-align:center; 
+
+}
+
+.contatos > p{
+    font-size: 30px;
+
+}
+
+iframe{
+    width:55%;
+    height:300px;
+
+}
+
+footer{
+    float: left;
+    width: 100%;
+    
+}
+
+footer > img{
+    width: 15%;
+    margin: 5% 40%;
+    
+}
